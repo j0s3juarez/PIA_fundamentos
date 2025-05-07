@@ -1,0 +1,74 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="{% static 'pagina/css/style.css' %}">
+    <script src="{% static 'pagina/js/main.js' %}"></script>
+
+
+    <title>home page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Dayglow</h1>
+            <h2>¿Quienes son?</h2>
+            <p>Dayglow es el proyecto musical de Sloan Struble, un cantante, compositor y productor estadounidense conocido por su sonido pop indie.</p>
+            <img src="{% static 'pagina/img/001.jpg' %}" alt="Sample Image">
+
+            <h2>Canciones Populares</h2>
+            <ul>
+                <li>Can I Call You Tonight?</li>
+                <li>Hot Rod</li>
+                <li>Close To You</li>
+                <li>Then It All Goes Away</li>
+            </ul>
+            
+            <h2>Albums</h2>
+            <ul>
+                <li>Fuzzybrain (2018)</li>
+                <li>Harmony House (2021)</li>
+                <li>People in Motion (2022)</li>
+                <li>Dayglow (2024)</li>
+            </ul>
+            
+        </section>
+        <h2>¿Quieres comentar algo, por favor escribe tu nombre y un comentario?</h2>
+        <form action="">
+            <label for="Nombre">
+                <span>¿Cual es tu nombre?</span>
+                <input type="text" id="Nombre" placeholder="Tu Nombre">
+            </label>
+        </form>
+        <form action="">
+            <label for="Mensaje">
+                <span>Escribe tu comentario</span>
+                <input type="text" id="Mensaje" placeholder="Escribenos que piensas ">
+            </label>
+        </form>
+    </main>
+    <footer>
+        <h2>¿Donde los encuentras?</h2>
+        <p>Estas son sus redes sociales y su musica</p>
+        <ul>
+            <li><a href="https://www.instagram.com/dayglowband/" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/dayglowband" target="_blank">Twitter</a></li>
+            <li><a href="https://www.youtube.com/channel/UC0O_jVfD2BqNhOYo4tYaMcA" target="_blank">YouTube</a></li>
+            <li><a href="https://open.spotify.com/artist/3GGXfUhVP1TsuK9QYeJBDm" target="_blank">Spotify</a></li>
+        </ul>        
+    </footer>
+</body>
+
+</body>
+</html>
+
